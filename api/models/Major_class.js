@@ -14,10 +14,10 @@
      autoIncrement: true
    },
    major_id: {
-     type: 'integer'
+     model: 'major'
    },
    class_id: {
-     type: 'integer'
+     model: 'class'
    }
  },
  autoPK: false

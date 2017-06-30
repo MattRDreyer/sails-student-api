@@ -41,7 +41,8 @@ module.exports = {
     maxLength: 4
   },
   major_id: {
-    type: 'integer'
+    // type: 'integer',
+    model: 'major'
   }
 },
 autoPK: false

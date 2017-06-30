@@ -24,13 +24,13 @@ module.exports = {
     maxLength: 30
   },
   major_id: {
-    type: 'integer'
+    model: 'major'
   },
   years_of_experience: {
     type: 'integer'
   },
   tenured: {
-    type: 'integer'
+    type: 'boolean'
   },
 },
 autoPK: false

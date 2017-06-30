@@ -14,16 +14,16 @@ module.exports = {
     autoIncrement: true
   },
   student_id: {
-    type: 'integer'
+    model: 'student'
   },
   assignment_nbr: {
     type: 'integer'
   },
   grade_id: {
-    type: 'integer'
+    model: 'grade'
   },
   class_id: {
-    type: 'integer'
+    model: 'class'
   }
 },
 autoPK: false
